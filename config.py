@@ -11,7 +11,7 @@ import argparse
 # Set cli arguments
 OPTIONS = argparse.ArgumentParser(prog='run.py',
                                   description='A Telegram Bot who answers to all of your questions')
-OPTIONS.add_argument('--TELEGRAM_TOKEN', help='Insert Telegram Token', required=True)
+OPTIONS.add_argument('--TELEGRAM_TOKEN', help='673895642:AAGvtuwlxnUNuysUu7mPifNLAHIWJ0L0uvk', required=True)
 OPTIONS.add_argument('--ADMIN_CHAT_ID', help='Insert Telegram ChatID', nargs="*", default=[])
 OPTIONS.add_argument('--DIALOGFLOW_KEY', help='Specify Dialogflow Key Path', required=True)
 OPTIONS.add_argument('--WIT_TOKEN', help='Specify Wit Token', default='')
